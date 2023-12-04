@@ -450,10 +450,10 @@ h2 {
 
 .wrap-7 img {
     
-        margin-left: -80px;
-        max-width: 125%;
+        /* margin-left: -79px; */
+        max-width: 101%;
         /* width: 778px; */
-        height: 620px;
+        height: 426px;
     
     
 }
@@ -498,16 +498,20 @@ h2 {
     color: var(--white);
 }
 
-.wrap-9 label input {
-    border: 2px solid #fff;
-    background-color: transparent;
+.wrap-9  input {
+    display: block;
+    /* color: var(--white); */
+    
+    border: 3px solid black;
+    background-color: white;
 }
 
+
 textarea {
-    color: #fff;
+    /* color: #fff; */
     /* opacity: 100%; */
-    background-color: transparent;
-    border: 2px solid #fff;
+    background-color: white;
+    border: 2px solid #000;
 }
 
 .wrap-9 form {
@@ -594,7 +598,12 @@ textarea {
 }
 
 .wrap-11 .link {
+   
     padding-top: 120px;
+}
+.wrap-11 a{
+    font-size: 2rem;
+    color: var(--yellow);
 }
 
 .wrap-11 .link2 {
@@ -604,15 +613,20 @@ textarea {
 }
 
 .wrap-11 .social {
+    font-size: 2rem;
     /* margin-left: -300px; */
     border: 1px solid #fff;
     border-top: 2px solid white;
     width: 100%;
 }
 .wrap-11 .social2 span{
+
     border-left: 2px solid var(--yellow);
    margin: 10px;
    padding-left: 10px;
+}
+.wrap-11 p{
+    font-size: 2rem;
 }
 .wrap-11 .social2{
     
@@ -916,8 +930,14 @@ textarea {
     .wrap-4 img {
         margin-left: -8px;
         max-width: 160%;
-        /* height: 299px; */
+        height: 240px;
         margin-top: 70px;
+    }
+
+    .wrap-7 img {
+        margin-left: -9px;
+        height: 320px;
+        max-width: 105%;
     }
 
     .wrap-4 h2 {
@@ -1130,11 +1150,20 @@ textarea {
     .wrap-2 p {
         font-size: 1.5rem;
     }
+
+    .wrap-4 {
+       
+        padding: 150px 0;
+    }
     .wrap-7 h2 {
         font-size: 20px;
         margin-left: 127px;
         margin-bottom: 37px;
         padding-top: 118px;
+    }
+    .wrap-11 p{
+        margin-left: 12px;
+        font-size: 1.4rem;
     }
 
 }
